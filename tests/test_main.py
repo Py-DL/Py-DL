@@ -46,10 +46,10 @@ def test_video_keywords(cipher_signature):
 
 
 def test_js_caching(cipher_signature):
-    assert pytube.__js__ is not None
-    assert pytube.__js_url__ is not None
-    assert pytube.__js__ == cipher_signature.js
-    assert pytube.__js_url__ == cipher_signature.js_url
+    assert Py-DL.__js__ is not None
+    assert Py-DL.__js_url__ is not None
+    assert Py-DL.__js__ == cipher_signature.js
+    assert Py-DL.__js_url__ == cipher_signature.js_url
 
 
 def test_channel_id(cipher_signature):

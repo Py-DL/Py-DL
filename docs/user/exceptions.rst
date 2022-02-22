@@ -12,7 +12,7 @@ videos in a playlist, videos that are region-restricted, and more.
 
 Let's see what your code might look like if you need to do exception handling::
 
-    >>> from pytube import Playlist, YouTube
+    >>> from Py-DL import Playlist, YouTube
     >>> playlist_url = 'https://youtube.com/playlist?list=special_playlist_id'
     >>> p = Playlist(playlist_url)
     >>> for url in p.video_urls:
@@ -26,4 +26,4 @@ Let's see what your code might look like if you need to do exception handling::
 
 This will automatically skip over videos that could not be downloaded due to a
 limitation with the pytube library. You can find more details about what
-specific exceptions can be handled here: :py:mod:`pytube.exceptions`.
+specific exceptions can be handled here: :py:mod:`Py-DL.exceptions`.

@@ -3,7 +3,7 @@
 Subtitle/Caption Tracks
 =======================
 
-Pytube exposes the caption tracks in much the same way as querying the media
+Py-DL exposes the caption tracks in much the same way as querying the media
 streams. Let's begin by switching to a video that contains them::
 
     >>> yt = YouTube('http://youtube.com/watch?v=2lAe1cqCOXo')

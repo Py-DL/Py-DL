@@ -22,7 +22,7 @@ setup(
     license="The Unlicense (Unlicense)",
     entry_points={
         "console_scripts": [
-            "py-dl = Py-DL.cli:main"],},
+            "pytube = pytube.cli:main"],},
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Console",

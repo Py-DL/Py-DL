@@ -22,7 +22,7 @@ setup(
     license="The Unlicense (Unlicense)",
     entry_points={
         "console_scripts": [
-            "Py-DL = Py-DL.cli:main"],},
+            "Py-DL=Py-DL.cli:main"],},
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Console",
